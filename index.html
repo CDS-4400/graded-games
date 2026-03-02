@@ -8,31 +8,66 @@
 </head>
 <body>
 
-  <!-- ==============================
-       HEADER
-       The site title and subtitle.
-       Edit the text directly here.
-  ============================== -->
   <header>
     <h1>🎮 Graded Games</h1>
     <p>Honest game reviews, graded like a report card.</p>
   </header>
 
-  <!-- ==============================
-       MAIN CONTENT
-       The card grid is built here
-       automatically by script.js.
-       You don't need to edit this section
-       — just add games to script.js.
-  ============================== -->
   <main>
+    <div class="add-review-bar">
+      <button id="add-review-btn">+ Add Review</button>
+    </div>
     <div id="game-grid">
       <!-- Cards are injected here by JavaScript -->
     </div>
   </main>
 
-  <!-- Load our JavaScript file last so the HTML is ready when it runs -->
-  <script src="script.js"></script>
+  <!-- Add Review Modal -->
+  <div id="modal-overlay" class="hidden">
+    <div class="modal">
+      <h2>Add New Review</h2>
+      <form id="review-form">
+        <div class="form-row">
+          <input type="text" name="title" placeholder="Game Title" required>
+          <input type="number" name="year" placeholder="Year" required>
+        </div>
+        <div class="form-row">
+          <input type="text" name="genre" placeholder="Genre" required>
+          <input type="text" name="developer" placeholder="Developer" required>
+        </div>
+        <select name="grade" required>
+          <option value="">Grade</option>
+          <option>A+</option><option>A</option><option>A-</option>
+          <option>B+</option><option>B</option><option>B-</option>
+          <option>C+</option><option>C</option><option>C-</option>
+          <option>D+</option><option>D</option><option>D-</option>
+          <option>F</option>
+        </select>
+        <div class="platforms-group">
+          <span class="platforms-label">Platforms</span>
+          <div class="platforms-checkboxes">
+            <label><input type="checkbox" name="platforms" value="PC"> PC</label>
+            <label><input type="checkbox" name="platforms" value="PS4"> PS4</label>
+            <label><input type="checkbox" name="platforms" value="PS5"> PS5</label>
+            <label><input type="checkbox" name="platforms" value="Xbox"> Xbox</label>
+            <label><input type="checkbox" name="platforms" value="Switch"> Switch</label>
+            <label><input type="checkbox" name="platforms" value="Mobile"> Mobile</label>
+          </div>
+        </div>
+        <label class="file-label">
+          Game Image (optional)
+          <input type="file" name="image" accept="image/*">
+        </label>
+        <textarea name="shortReview" placeholder="Short review (one sentence shown on card)" required></textarea>
+        <textarea name="fullReview" placeholder="Full review (shown on detail page)" required></textarea>
+        <div class="modal-actions">
+          <button type="button" id="cancel-btn">Cancel</button>
+          <button type="submit">Submit Review</button>
+        </div>
+      </form>
+    </div>
+  </div>
 
+  <script src="script.js"></script>
 </body>
 </html>

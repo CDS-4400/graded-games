@@ -1,0 +1,111 @@
+[
+  {
+    "id": "elden-ring",
+    "title": "Elden Ring",
+    "year": 2022,
+    "genre": "Action RPG",
+    "developer": "FromSoftware",
+    "grade": "A+",
+    "shortReview": "A brutal, beautiful open world that redefines what an RPG can be.",
+    "fullReview": "Elden Ring is FromSoftware's magnum opus. Taking the punishing, rewarding combat of Dark Souls and placing it inside a massive open world felt like a risk — but it paid off in every way. The Lands Between is one of gaming's most memorable settings, filled with secrets around every corner. The bosses are legendary, the lore is deep, and the sense of accomplishment when you finally beat a hard boss is unmatched. A must-play for any serious gamer.",
+    "image": "images/elden-ring.jpg",
+    "platforms": [
+      "PS5",
+      "Xbox",
+      "PC"
+    ],
+    "extraImages": []
+  },
+  {
+    "id": "hollow-knight",
+    "title": "Hollow Knight",
+    "year": 2017,
+    "genre": "Metroidvania",
+    "developer": "Team Cherry",
+    "grade": "A",
+    "shortReview": "An indie masterpiece with stunning art and brutally satisfying gameplay.",
+    "fullReview": "Hollow Knight is proof that small teams can create something extraordinary. Team Cherry built a massive, interconnected underground world filled with atmosphere, challenge, and charm. The hand-drawn art style is gorgeous, the combat is tight, and the world feels genuinely alive. If you enjoy exploration and a good challenge, this is one of the best games ever made at any price point.",
+    "image": "images/hollow-knight.jpg",
+    "platforms": [
+      "PC",
+      "Switch",
+      "PS4",
+      "Xbox"
+    ],
+    "extraImages": []
+  },
+  {
+    "id": "cyberpunk-2077",
+    "title": "Cyberpunk 2077",
+    "year": 2020,
+    "genre": "Action RPG",
+    "developer": "CD Projekt Red",
+    "grade": "B",
+    "shortReview": "A flawed gem — messy launch, but Night City is unforgettable.",
+    "fullReview": "Cyberpunk 2077 had one of gaming's most infamous launches, but after years of patches it has transformed into something genuinely special. Night City is the most detailed urban environment ever put in a game. The story is engaging, the side quests rival the main story in quality, and the 2.0 update fixed most of the core gameplay issues. It's still not perfect, but it's worth playing today.",
+    "image": "images/cyberpunk.jpg",
+    "platforms": [
+      "PS5",
+      "Xbox",
+      "PC"
+    ],
+    "extraImages": []
+  },
+  {
+    "id": "fall-guys",
+    "title": "Fall Guys",
+    "year": 2020,
+    "genre": "Party / Battle Royale",
+    "developer": "Mediatonic",
+    "grade": "B-",
+    "shortReview": "Pure chaotic fun — best enjoyed with friends.",
+    "fullReview": "Fall Guys carved out its own lane in the battle royale genre by ditching guns and replacing them with jelly bean people falling over each other. It's silly, it's fun, and it's a great game to play with friends or family. The rounds are quick, the variety is good, and nothing feels too punishing. It loses points for getting repetitive solo, but as a casual party game it delivers every time.",
+    "image": "images/fall-guys.jpg",
+    "platforms": [
+      "PS4",
+      "PS5",
+      "Xbox",
+      "Switch",
+      "PC"
+    ],
+    "extraImages": []
+  },
+  {
+    "id": "no-mans-sky",
+    "title": "No Man's Sky",
+    "year": 2016,
+    "genre": "Survival / Exploration",
+    "developer": "Hello Games",
+    "grade": "A-",
+    "shortReview": "The greatest redemption arc in gaming. It's now everything it promised.",
+    "fullReview": "No Man's Sky launched as one of gaming's biggest disappointments. The promises didn't match the product. But Hello Games did something rare — they kept working. Years of free updates transformed it into one of the most content-rich survival games available. Base building, multiplayer, story missions, space combat — it's all there now. A remarkable comeback story and a genuinely great game.",
+    "image": "images/no-mans-sky.jpg",
+    "platforms": [
+      "PS4",
+      "PS5",
+      "Xbox",
+      "Switch",
+      "PC"
+    ],
+    "extraImages": []
+  },
+  {
+    "id": "overwatch",
+    "title": "Overwatch",
+    "year": 2016,
+    "genre": "FPS Hero Shooter",
+    "developer": "Blizzard Games",
+    "grade": "B-",
+    "platforms": [
+      "PC",
+      "PS4",
+      "PS5",
+      "Xbox",
+      "Switch"
+    ],
+    "image": "images/overwach.jpeg",
+    "shortReview": "A fast-paced, team-based hero shooter where every move counts and communication is key. Will you respond to the call?",
+    "fullReview": "Overwatch burst onto the scene in 2016 and completely redefined what a team-based shooter could be. Blizzard took the hero shooter concept and polished it to perfection, delivering a roster of characters so distinct and personality-driven that they transcended the game itself — becoming some of gaming's most recognizable icons. Each hero plays completely differently, meaning there's genuinely something for every type of player whether you prefer frontline brawling, long-range sniping, or keeping your team alive from the backline. The maps are gorgeous, the gameplay loop is satisfying, and at its peak it was one of the most fun multiplayer experiences available. Overwatch 2 brought controversial changes — the move to free-to-play and the battle pass system frustrated longtime fans — but the core gameplay remains as sharp as ever. If you have a solid group of friends to queue with, there are few games that match the highs of a perfectly coordinated team push",
+    "extraImages": []
+  }
+]

@@ -368,3 +368,204 @@ main {
     height: 250px;
   }
 }
+
+
+/* ============================================
+   9. ADD REVIEW BUTTON & MODAL
+   ============================================ */
+
+.add-review-bar {
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+#add-review-btn {
+  background: var(--accent);
+  color: #000;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+#add-review-btn:hover {
+  opacity: 0.85;
+}
+
+.hidden {
+  display: none !important;
+}
+
+#modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 20px;
+}
+
+.modal {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 30px;
+  width: 100%;
+  max-width: 560px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.modal h2 {
+  color: var(--accent);
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+}
+
+.modal input,
+.modal select,
+.modal textarea {
+  width: 100%;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  padding: 10px 12px;
+  font-size: 0.9rem;
+  font-family: inherit;
+  margin-bottom: 12px;
+}
+
+.modal input:focus,
+.modal select:focus,
+.modal textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.modal select option {
+  background: var(--surface2);
+}
+
+.modal textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.form-row input,
+.form-row select {
+  margin-bottom: 0;
+}
+
+.form-row {
+  margin-bottom: 12px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.modal-actions button {
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.2s;
+}
+
+#cancel-btn {
+  background: var(--surface2);
+  color: var(--text-muted);
+}
+
+.modal-actions button[type="submit"] {
+  background: var(--accent);
+  color: #000;
+}
+
+.modal-actions button:hover {
+  opacity: 0.8;
+}
+
+.platforms-group {
+  margin-bottom: 12px;
+}
+
+.platforms-label {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.platforms-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+}
+
+.platforms-checkboxes label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.9rem;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.platforms-checkboxes input[type="checkbox"] {
+  width: auto;
+  margin-bottom: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+.file-label {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.file-label input[type="file"] {
+  display: block;
+  margin-top: 6px;
+  margin-bottom: 0;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.file-label input[type="file"]::file-selector-button {
+  background: var(--surface2);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 5px 12px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 0.85rem;
+  transition: border-color 0.2s;
+}
+
+.file-label input[type="file"]::file-selector-button:hover {
+  border-color: var(--accent);
+}
